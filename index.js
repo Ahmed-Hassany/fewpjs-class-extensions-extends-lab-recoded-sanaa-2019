@@ -14,4 +14,5 @@ class Polygon {
     },0)
     return sum
   }
+  
 }
