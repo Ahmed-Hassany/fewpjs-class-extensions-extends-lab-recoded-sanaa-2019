@@ -31,3 +31,18 @@ class Triangle  extends Polygon{
     return isV
   }
 }
+
+class Triangle  extends Polygon{
+  get isValid(){
+    let isV = true
+    if(this.count!=3)
+    isV = false
+    else
+    for(let i =1;i<this.count;i++)
+    {
+      if(this.sidesArr[i]!=this.sidesArr[i-1])
+      isV = false
+    }
+    return isV
+  }
+}
