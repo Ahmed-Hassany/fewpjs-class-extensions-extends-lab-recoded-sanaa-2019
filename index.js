@@ -32,7 +32,7 @@ class Triangle  extends Polygon{
   }
 }
 
-class Triangle  extends Polygon{
+class Square extends Polygon{
   get isValid(){
     let isV = true
     if(this.count!=3)
