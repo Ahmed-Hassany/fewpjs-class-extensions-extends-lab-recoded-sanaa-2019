@@ -46,6 +46,6 @@ class Square extends Polygon{
     return isV
   }
   get area(){
-    return this.sidesArr
+    return this.sidesArr*4
   }
 }
