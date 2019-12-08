@@ -9,6 +9,8 @@ class Polygon {
     return this.sidesArr.length
   }
   get perimeter(){
-    
+    let sum = this.sidesArr.reduce(s,side=>(){
+      
+    })
   }
 }
