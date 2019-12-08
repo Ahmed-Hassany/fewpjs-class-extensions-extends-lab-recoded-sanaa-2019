@@ -12,5 +12,6 @@ class Polygon {
     let sum = this.sidesArr.reduce((s,side)=>{
       s+=side
     },0)
+    return sum
   }
 }
