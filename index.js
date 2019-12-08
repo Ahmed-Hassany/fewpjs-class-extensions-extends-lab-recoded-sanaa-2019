@@ -19,6 +19,11 @@ class Polygon {
 
 class Triangle  extends Polygon{
   get isValid(){
-    if
+    let isV = true
+    for(let i =1;i<this.count;i++)
+    {
+      if(this.sidesArr[i]!=this.sidesArr[i-1])
+      isV = false
+    }
   }
 }
