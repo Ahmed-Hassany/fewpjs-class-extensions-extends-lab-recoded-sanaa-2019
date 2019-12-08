@@ -8,4 +8,7 @@ class Polygon {
   get countSides(){
     return this.sidesArr.length
   }
+  get perimeter(){
+    
+  }
 }
