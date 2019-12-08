@@ -1,7 +1,9 @@
 // Your code here
 
 class Polygon {
-  constructor(arr){
+  constructor(sidesArr){
+    this.sidesArr = sidesArr
     
   }
+  
 }
