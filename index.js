@@ -35,7 +35,7 @@ class Triangle  extends Polygon{
 class Square extends Polygon{
   get isValid(){
     let isV = true
-    if(this.count!=3)
+    if(this.count!=4)
     isV = false
     else
     for(let i =1;i<this.count;i++)
